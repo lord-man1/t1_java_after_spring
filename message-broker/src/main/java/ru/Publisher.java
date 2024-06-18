@@ -1,13 +1,22 @@
 package ru;
 
-public class Publisher<T> {
-    private final PubSubChannel<T> pubSubChannel;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 
-    public Publisher(PubSubChannel<T> pubSubChannel) {
-        this.pubSubChannel = pubSubChannel;
+public class Publisher<T> {
+    private final MessageBroker messageBroker;
+    private final ObjectMapper mapper;
+
+    public Publisher(MessageBroker messageBroker, ObjectMapper mapper) {
+        this.messageBroker = messageBroker;
+        this.mapper = mapper;
     }
 
-    public void publish(T message) {
-        pubSubChannel.publish(message);
+    public void publish(T message) throws JsonProcessingException {
+        messageBroker.publish(serializeToJson(message));
+    }
+
+    private String serializeToJson(T obj) throws JsonProcessingException {
+        return mapper.writeValueAsString(obj);
     }
 }

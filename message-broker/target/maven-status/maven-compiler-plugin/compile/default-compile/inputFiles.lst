@@ -1,6 +1,8 @@
-/home/rchizh/Документы/message-broker/src/main/java/ru/PubSubChannel.java
-/home/rchizh/Документы/message-broker/src/main/java/ru/Publisher.java
-/home/rchizh/Документы/message-broker/src/main/java/ru/RepositorySubscriber.java
-/home/rchizh/Документы/message-broker/src/main/java/ru/Subscriber.java
-/home/rchizh/Документы/message-broker/src/main/java/ru/PubSubInMemoryQueue.java
-/home/rchizh/Документы/message-broker/src/main/java/ru/Repository.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/InMemoryMessageBroker.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/MessageBroker.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/MessageBrokingConfig.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/MessageBrokingConfigProperties.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/Publisher.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/Subscriber.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/SubscriberBeanPostProcessor.java
+/home/rchizh/Документы/T1_Java_Course/message-broker/src/main/java/ru/SubscriberContainer.java

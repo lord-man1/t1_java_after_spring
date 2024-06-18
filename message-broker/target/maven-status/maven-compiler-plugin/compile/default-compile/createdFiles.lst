@@ -1,6 +1,8 @@
-ru/Repository.class
-ru/PubSubChannel.class
+ru/MessageBrokingConfig.class
+ru/SubscriberContainer.class
 ru/Subscriber.class
+ru/InMemoryMessageBroker.class
+ru/MessageBroker.class
+ru/MessageBrokingConfigProperties.class
 ru/Publisher.class
-ru/RepositorySubscriber.class
-ru/PubSubInMemoryQueue.class
+ru/SubscriberBeanPostProcessor.class
